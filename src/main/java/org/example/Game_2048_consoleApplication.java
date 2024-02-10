@@ -30,7 +30,6 @@ public class Game_2048_consoleApplication implements CommandLineRunner {
         commandExecutor.addCommand(new MoveDownCommand());
         commandExecutor.addCommand(new MoveUpCommand());
         commandExecutor.addCommand(new MoveLeftCommand());
-        commandExecutor.addCommand(new MoveLeftCommand());
         commandExecutor.addCommand(new MoveRightCommand());
 
         while (true) {
